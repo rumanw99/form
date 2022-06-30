@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: gainsboro
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.crud{
   display: flex;
   flex-direction: column;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.form{
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+.tab{
+  width: 100%;
+  bottom: 0;
+}
+.ara{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  width: 100%;
+}
+.ara button{
+  background-color: rgb(57, 97, 206);
   color: white;
+  width: 50%;
+  height:30px;
+  border: none;
+  border-radius: 10px;
+}
+.cam{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.we{ 
+  border-radius: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.camera{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+  display: flex;
+}
+.camera button{
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  background-color: deeppink;
+  color: white;
+  height: 30px;
+}
+.ope{
+  position: absolute;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ope button{
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  background-color: deeppink;
+  color: white;
+  height: 30px;
+  z-index: 3;
+}
+.wardee{
+  background-color: #333 0.6;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }

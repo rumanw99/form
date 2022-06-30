@@ -1,0 +1,14 @@
+{
+  "first": "First Name",
+  "middle": "Middle Name",
+  "last": "Last Name",
+  "birthday": "Birthday",
+  "position": "Position",
+  "certificates": "Certificates",
+  "submit": "Submit",
+  "update": "Edit",
+  "delete": "Delete",
+  "open": "Open Camera",
+  "take": "Take Photo",
+  "close": "Close Photo"
+}
